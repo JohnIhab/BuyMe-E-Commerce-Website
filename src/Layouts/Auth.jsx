@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
-import logo from '../assets/images/freshcart-logo.svg'
+import logo from '../assets/images/freshcart-logo.png'
 export default function 
 () {
   return (
@@ -8,7 +8,7 @@ export default function
                     <nav className="navbar navbar-expand-lg bg-body-tertiary py-2">
                 <div className="container-fluid mx-3">
                     <NavLink className="navbar-brand" to="/home">
-                        <img src={logo} alt="Logo" />
+                        <img src={logo} height={35} alt="Logo" />
                     </NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
